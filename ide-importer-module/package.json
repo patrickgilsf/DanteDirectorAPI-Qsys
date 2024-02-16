@@ -1,0 +1,16 @@
+{
+  "name": "ide-importer-module",
+  "version": "1.0.0",
+  "description": "future npm module, based off of ide importer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "mon": "nodemon index.js"
+  },
+  "author": "PG",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
