@@ -1,0 +1,24 @@
+{
+  "name": "dantedirectorapi-qsys",
+  "version": "1.0.0",
+  "description": "\"Q-Sys wrapper for Dante API, with optional code deployment from NodeJS\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon -L -e lua, js, json app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickgilsf/DanteDirectorAPI-Qsys.git"
+  },
+  "author": "Patrick Gilligan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickgilsf/DanteDirectorAPI-Qsys/issues"
+  },
+  "homepage": "https://github.com/patrickgilsf/DanteDirectorAPI-Qsys#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4"
+  }
+}

@@ -32,7 +32,7 @@ class Core {
   add = (input, attribute) => {
     this[input] = attribute
   }
-
+  
   login = () => {
     return this.username && this.pw
     ?
@@ -52,7 +52,7 @@ class Core {
     id ? id = id : id = 1234;
     return JSON.stringify({
       "jsonrpc": "2.0",
-      "id": 1234,
+      "id": id,
       "method": "Component.Set",
       "params": {
         "Name": comp,
