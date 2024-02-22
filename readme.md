@@ -1,4 +1,4 @@
-#Steps
+##Steps
 
 1. clone this repo
 2. open Q-Sys file and drag in DanteAPI.quc
