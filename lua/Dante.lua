@@ -101,6 +101,7 @@ end
 
 function HidePw()
   local cond 
+  pw = Controls.APIKey.String
   if pw == '' then cond = false else cond = true end
   Controls.APIKey.IsInvisible = cond
 end
@@ -108,10 +109,12 @@ end
 function APIKeyHandler()
   Controls.ClearAPIKey.EventHandler = function()
     Controls.APIKey.String = ""
+    print("API Key Cleared")
     HidePw()
   end
   Controls.APIKey.EventHandler = function(c)
     pw = Controls.APIKey.String
+    Controls.FeedBack.String = ""
     HidePw()
     Init()
   end
